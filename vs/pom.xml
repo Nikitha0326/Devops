@@ -45,17 +45,6 @@
           <version>3.8.0</version>
         </plugin>
         <plugin>
-                        <groupId>org.apache.tomcat.maven</groupId>
-                        <artifactId>tomcat7-maven-plugin</artifactId>
-                        <version>2.2</version>
-                <configuration>
-                        <url>http://18.207.218.170:8080//manager/text</url>
-                <server>TomcatServer</server>
-                <path>/test</path>
-                  </configuration>
-            </plugin>
-
-        <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
           <version>2.22.1</version>
         </plugin>
